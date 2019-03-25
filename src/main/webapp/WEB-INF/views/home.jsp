@@ -6,6 +6,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 </head>
 <body>
-    <h1>Welcome</h1>
+    <h1>${ picture.title }</h1>
+    <p>Date: ${ picture.date } </p>
+    <p>Details: ${ picture.explanation } </p>
+    <img src="${ picture.url }"/>
+    <div>
+    </div>
 </body>
 </html>
