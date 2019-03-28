@@ -9,14 +9,8 @@
 </head>
 <body>
     <div class="container" style="margin-top: 50px;">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">${ picture.title }</h5>
-            <p class="card-text">${ picture.explanation }</p>
-            <p class="card-text"><small class="text-muted">${ picture.date }</small></p>
-          </div>
-          <img class="card-img-bottom" src="${ picture.url }" alt="Astronomy Picture Of a Day">
-        </div>
+       <h4>This is a simple website</h4>
+       <p><a href="${pageContext.request.contextPath}/picture">See NASA Astronomy Picture Of a Day</a></p>
     </div>
 </body>
 </html>
